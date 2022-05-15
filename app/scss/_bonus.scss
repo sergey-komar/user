@@ -1,0 +1,66 @@
+.bonus{
+    padding-bottom: 180px;
+}
+.bonus__inner{
+    display: flex;
+}
+.bonus-block{
+    margin-left: 150px;
+}
+.bonus-block__text {
+    margin-top: 45px;
+    margin-bottom: 150px;
+    font-size: 15px;
+}
+.bonus-block__inner{
+  position: relative;
+}
+.bonus-block__inner::before{
+    position: absolute;
+    content: "";
+    width: 761px;
+    height: 172px;
+    background: url('../images/messages/Прямоугольник 808 копия 3.png');
+    top: 20px;
+    left: 9px;
+}
+.bonus-block__inner-border {
+    display: flex;
+}
+.bonus-block__left {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  background-color: $dark;
+}
+.bonus-block__top {
+   padding: 54px 100px;
+}
+.bonus-block__top-text {
+    width: 190px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bonus-block__top-bottom {
+    display: flex;
+    justify-content: center;
+}
+.bonus-block__top-time {
+    font-weight: 500;
+    font-size: 40px;
+}
+.bonus-block__top-time + .bonus-block__top-time{
+    margin-left: 30px;
+}
+.bonus-block__top-time span{
+    font-size: 18px;
+    margin-left: 5px;
+}
+.bonus-block__right {
+    display: flex;
+    justify-content: center;
+   background-color: #ba8658;
+    width: 100%;
+}
