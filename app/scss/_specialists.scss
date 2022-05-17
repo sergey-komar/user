@@ -1,0 +1,127 @@
+.specialists__inner{
+    display: flex;
+}
+.specialists-block {
+    max-width: 770px;
+   margin-left: 90px;
+}
+
+.specialists-block__text {
+    margin-top: 47px;
+    margin-bottom: 120px;
+}
+.specialists-block__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 120px;
+}
+.specialists-block__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    padding: 0 30px 30px 30px;
+    background-color: $dark;
+}
+.specialists-block__img {
+    position: relative;
+    margin-top: -65px;
+    margin-bottom: 20px;
+}
+.specialists-block__img::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url('../images/specials/crug.png') no-repeat;
+    left: 70%;
+    top: 70%;
+}
+.specialists-block__item-title {
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.specialists-block__item-title::before{
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 3px;
+    background: url('../images/specials/line.png') no-repeat;
+    left: 54px;
+    top: 40px;
+}
+.specialists-block__item-text {
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+}
+.specialists-block__content {
+    margin-bottom: 25px;
+    display: flex;
+    column-gap: 10px;
+}
+.specialists-block__content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.specialists-block__content-img {
+    margin-bottom: 15px;
+}
+.specialists-block__content-experience {
+    font-size: 15px;
+}
+.specialists-block__content-year {
+    font-size: 15px;
+    font-weight: 600;
+}
+.specialists-block__content-btn {
+    padding: 10px 0px;
+    width: 147px;
+}
+.specialists-block__button{
+    width: 228px;
+    display: block;
+    padding: 20px 60px;
+    background-color: $dark;
+    color: $yellow;
+    border-radius: 30px;
+    border: none;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.specialists-block__inner--none{
+    display: flex;
+    margin-top: 80px;
+}
+
+
+
+@media(max-width:1200px){
+    .specialists-block {
+        margin-left: 0;
+    }
+}
+@media(max-width:1050px){
+    .specialists__inner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .specialists-block{
+        order: -1;
+    }
+}
+@media(max-width:600px){
+    .specialists-block__inner{
+        justify-content: center;
+        row-gap: 85px;
+    }
+}

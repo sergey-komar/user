@@ -18,7 +18,7 @@ body > * {
 
 
 .container{
-  max-width: 1235px;
+  max-width: 1245px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -36,6 +36,18 @@ body > * {
 }
 .section{
 	padding-bottom: 180px;
+}
+.btn{
+	padding: 10px 60px;
+    width: 185px;
+    width: 100%;
+    border: 1px solid $grey;
+    border-radius: 30px;
+    color: #fff;
+	text-align: center;
+}
+button{
+	cursor: pointer;
 }
 
 

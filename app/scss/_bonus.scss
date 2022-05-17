@@ -64,3 +64,42 @@
    background-color: #ba8658;
     width: 100%;
 }
+
+@media(max-width:1200px){
+    .bonus-block {
+        margin-left: 0px;
+    }
+}
+@media(max-width:1050px){
+    .bonus__inner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .bonus-block {
+       order: -1;
+    }
+    .bonus-block__text {
+        margin-bottom: 50px;
+    }
+    .aside{
+        margin-top: 30px;
+    }
+    
+}
+@media(max-width:800px){
+    .bonus-block__inner::before{
+        display: none;
+    }
+    .bonus-block__inner-border{
+        display: block;
+    }
+}
+@media(max-width:600px){
+    .bonus-block__text{
+        width: 300px;
+    }
+    .bonus-block__inner{
+        width: 300px;
+    }
+}

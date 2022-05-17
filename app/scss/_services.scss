@@ -1,0 +1,98 @@
+.services__inner{
+    display: flex;
+}
+.services-block__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 50px;
+}
+.services-block__textt{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+.services-block{
+    max-width: 770px;
+    margin-left: 130px;
+}
+.services-block__item-border {
+    position: relative;
+    width: 230px;
+    padding: 10px 10px;
+    background-color: $dark;
+}
+.services-block__item{
+    border: 1px solid $yellow;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services-block__title {
+    margin-bottom: 85px;
+    transform: translateY(20px);
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 600;
+    color: $yellow;
+    text-align: center;
+}
+.services-block__item::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url('../images/services/heard.png') no-repeat;
+    top: 20px;
+    right: 18px;
+}
+.services-block__text {
+    position: relative;
+    margin-bottom: 60px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+.services-block__text::before{
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 3px;
+    background: url('../images/services/lineservices.png') no-repeat;
+    left: 65px;
+    top: -30px;
+}
+.services-block__btn {
+    margin-top: auto;
+    padding: 10px 0px;
+}
+@media(max-width:1200px){
+    .services-block {
+        margin-left: 30px; 
+    }
+}
+@media(max-width:1070px){
+    .services__inner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .services-block{
+        order: -1;
+        margin-left: 0;
+    }
+    
+}
+@media(max-width:770px){
+    .services-block__textt{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .services-block__inner {
+        justify-content: center;
+        row-gap: 20px;
+    }
+}

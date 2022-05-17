@@ -42,7 +42,7 @@
     justify-content: space-between;
 }
 .aside {
-    width: 300px;
+    width: 310px;
    
 }
 .aside__title,
@@ -89,6 +89,7 @@
 .aside__item-text {
     margin-left: 15px;
     color: #fff;
+    font-size: 18px;
 }
 .aside__bottom{
     margin-bottom: 75px;
@@ -292,9 +293,16 @@
     justify-content: space-around;
 }
 .chat-block__right-bottom-text {
+    background-color: transparent;
+    border: none;
+}
+.chat-block__right-bottom-textt{
     position: relative;
 }
-.chat-block__right-bottom-text::before{
+.chat-block__right-bottom-text::placeholder{
+    color: #fff;
+}
+.chat-block__right-bottom-textt::before{
     position: absolute;
     content: "";
     width: 25px ;
@@ -302,3 +310,75 @@
     background: url('../images/chat/sheet.png') no-repeat;
     left: -50px;
 }
+
+@media(max-width:1100px){
+    .chat-block__left{
+        width: 210px;
+    }
+    .chat-block__right-center {
+        width: 480px;
+    }
+}
+@media(max-width:1000px){
+    .chat__inner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .chat-block{
+        order: -1;
+        max-width: 700px;
+    }
+    .chat{
+        padding-top: 0;
+    }
+    .chat-block__item-text{
+        font-size: 14px;
+    }
+    .chat-block__item-date{
+        margin-left: 10px;
+    }
+    .chat-block__left{
+        width: 150px;
+    }
+}
+@media(max-width:750px){
+    .chat-block{
+        max-width: 500px;
+    }
+    .chat-block__right-center {
+        width: 280px;
+    }
+    .chat-block__right-center-text {
+         width: unset; 
+         margin-left: 0px;
+        font-size: 14px;
+    }
+}
+@media(max-width:550px){
+    .chat-block__inner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .chat-block__right {
+        margin-left: 0px;
+        order: -1;
+    }
+    .chat-block{
+        max-width: 300px;
+    }
+    .chat-block__left{
+        width: 250px;
+    }
+    .chat-block__title{
+        font-size: 24px;
+    }
+    .chat-block__right-bottom-textt::before{
+        left: -25px;
+    }
+    .chat-block__right-center {
+        width: 260px;
+    }
+}
+

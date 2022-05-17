@@ -25,9 +25,9 @@
               </ul>
         </div>
     </div>
-    <section class="video section">
+    <section class="information section">
         <div class="container">
-          <div class="video__inner">
+          <div class="information__inner">
             <div class="aside">
               <h2 class="aside__title">Мария Фёдорова</h2>
               <div class="aside__top">
@@ -81,51 +81,65 @@
                 </div>
               </div>
               <a href="#" class="aside__btn">Служба поддержки</a>
-          </div>
-          <div class="vide-block">
-            <h1 class="vide-block__title title">Мои видеоуроки</h1>
-            <p class="vide-block__text">
-              Здесь Вы можете посмотреть приобретенные Вами ранее видеоуроки,запись доступна 90 дней с момента добавления
-            </p>
-            <div class="vide-block__inner">
-                <div class="vide-block__item-border">
-                  <div class="vide-block__item">
-                    <div class="vide-block__item-img">
-                      <img src="./images/video/videocircleone.png" alt="img">
-                    </div>
-                    <div class="vide-block__item-title">
-                      Мастер класс от таролога:
-                      учимся значению карт
-                    </div>
-                    <div class="vide-block__item-text">
-                      Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста
-                    </div>
-                    <a href="#" class="vide-block__item-button">Смотреть</a>
+            </div>
+
+            <div class="information-block">
+              <div class="container">
+                <h1 class="information-block__title title">Личная информация</h1>
+                <div class="information-block__inner">
+                  <div class="information-block__img">
+                    <img src="./images/information/userinform.png" alt="img">
+                    <div class="information-block__img-title">Изменить фотографию</div>
                   </div>
+                    <form action="#" class="form">
+                        <div class="form__item">
+                          <label for="" class="form__item-label">Ваше имя</label>
+                          <input type="name" class="form__item-input" placeholder="Марианна">
+                        </div>
+                        <div class="form__item">
+                          <label for="" class="form__item-label">Фамилия</label>
+                          <input type="name" class="form__item-input" placeholder="Иванова">
+                        </div>
+                        <div class="form__item form__item-custom-title">
+                          Пол
+                          <div class="form__item--custom">
+                            <label class="form__item-label form__item-label--custom">
+                              <input type="checkbox" class="form__item-input form__item-input-custom" checked>
+                              <span class="custom__radio"></span>
+                              <span class="custom__radio--one">Женский</span>
+                            </label>
+                            <label  class="form__item-label form__item-label--custom">
+                              <input type="checkbox" class="form__item-input form__item-input-custom">
+                              <span class="custom__radio"></span>
+                              <span class="custom__radio--one">Мужской</span>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="form__item form__item--plus">
+                          <label for="" class="form__item-label">Дата рождения</label>
+                          <input type="name" class="form__item-input form__item-input--plus" placeholder="06.09.1990">
+                        </div>
+                        <div class="form__item form__item--plus">
+                          <label for="" class="form__item-label">Электронный адрес</label>
+                          <input type="email" class="form__item-input form__item-input--plus" placeholder="marianna@gmail.com">
+                        </div>
+                        <div class="form__item form__item--plus">
+                          <label for="" class="form__item-label">Номер телефона</label>
+                          <input type="tel" class="form__item-input form__item-input--plus" placeholder="+7(909) 666-90-60">
+                        </div>
+                    </form>
+                    <div class="information__password">Изменить пароль</div>
+                    <button class="information__btn">Сохранить изменения</button>
                 </div>
-               
-                <div class="vide-block__item-border">
-                  <div class="vide-block__item">
-                    <div class="vide-block__item-img">
-                      <img src="./images/video/videocircletwo.png" alt="img">
-                    </div>
-                    <div class="vide-block__item-title">
-                      Мастер класс от таролога:
-                      учимся значению карт
-                    </div>
-                    <div class="vide-block__item-text">
-                      Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста
-                    </div>
-                    <a href="#" class="vide-block__item-button btn">Смотреть</a>
-                  </div>
-                </div>
-                
+              </div>
             </div>
           </div>
-          </div>
+           
+
         </div>
     </section>
 </main>
+
   
   <script src="js/main.min.js"></script>
 </body>

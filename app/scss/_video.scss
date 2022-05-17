@@ -57,3 +57,34 @@
     border-radius: 30px;
     color: #fff;
 }
+
+
+@media(max-width:1170px){
+    .vide-block{
+        margin-left: 50px;
+    }
+}
+@media(max-width:1070px){
+    .video__inner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .vide-block{
+        order: -1;
+    }
+    .vide-block__inner{
+        flex-wrap: wrap;
+        row-gap: 110px;
+        justify-content: center;
+    }
+}
+
+@media(max-width:840px){
+    .vide-block__item-border+.vide-block__item-border {
+        margin-left: 0;
+    }
+    .vide-block{
+        margin-left: 0px;
+    }
+}
