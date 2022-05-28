@@ -101,6 +101,16 @@
     display: flex;
     margin-top: 80px;
 }
+.specialists-block__list{
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    justify-content: center;
+}
+.specialists-block__list-link{
+    color: #fff;
+}
 
 
 

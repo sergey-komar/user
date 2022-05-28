@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="15" viewBox="0 0 14 15">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="личный_кабинет" data-name="личный кабинет" class="cls-1">
+    <image id="Слой_601" data-name="Слой 601" width="14" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAABG0lEQVQokY3SPShHYRTH8Q+JlMEmOzEQC4MsMjIbhJKXWQxeN7tBGZSUxeqlDAwMJgorZZNFSUqRiJ46f92uq/yW89xzz/e8PU/Z81mbnLqxgo5w32AOu9mw8hw0idOAjnGIJuxgKRtYkTm3YB33aMVTJiYlW8Y5jvIVx8MOZaCkDwzEeaqo1bqw1/mhcRe2vgg8CLvkt6bDs1f6k9/qFdqxidVocxizMXsjXovASqxl5i0pVRrD418VS2rAKKqwjct8QEXuux8T6EJt+FKli2h/uwhcjweQdBJ394lO9KEXg5H8B9zCCDawiIdcJzVYwHwk7Ulgypig/WizSC8BpuXNpAeRllO6gmq8/QFm9YX39ACacftPKOkIld/o2EEPB7+H5wAAAABJRU5ErkJggg=="/>
+  </g>
+</svg>
